@@ -6,6 +6,5 @@ end
 puts "What year were you born?"
 birth_year = gets.to_i
 if birth_year
-  current_age_for_birth_year
+  current_age_for_birth_year(birth_year)
 end
-
